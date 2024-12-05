@@ -1,0 +1,264 @@
+@font-face {
+    font-family:poppins-semiBold;
+    src: url(../fonts/poppins-SemiBold.ttf);
+} 
+@font-face {
+    font-family:poppins-regular;
+    src: url(../fonts/poppins-Regular.ttf);
+}
+body{
+  font-family: poppins-Regular;
+  font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin-top:50px;
+    overflow: hidden;
+   /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    
+} 
+.border{
+    border: 2px solid #F2F0FA;
+    border-radius: 30px;
+}
+.search{
+    float: left;
+    width: 30%;
+}
+.menu_item{
+    float: right;
+    width: 30%;
+} 
+.menu ul{
+    margin: 0;
+    /* padding: 0; */
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    padding: 3%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    
+} 
+.menu_item ul li:nth-child(2) a {
+    color:white;
+}
+.button_bg{
+  border: none;
+  border-radius: 12px;
+  background-color:#6A4EE9 ;
+}
+i{
+    color: #6A4EE9;
+}
+
+.icon_coloro{
+    color: #FF8E51;
+} 
+.icon_colorbc{
+    color: black;
+} 
+.icon_colorb{
+    color: #227DFF;
+}
+.icon_colorv{
+    color: #5751FF;
+}
+.icon_colorp{
+    color: #FF2AAC;
+}
+.icon_fs{
+    font-size: 20px;
+}
+/* header-end */
+/* intro-start */
+.margin_top{
+    margin-top: 100px;
+} 
+
+.intro_text{
+    float: left;
+    padding: 50px;
+    width: 50%;
+}
+.photo{
+    float: right;
+    width: 25%;
+}
+.photo img{
+    width: 100%;
+}
+/* form start */
+.send_button{
+    border: none;
+    width: 20%;
+    height: 40px;
+    margin-top: 4px;
+}
+.send_button i{
+    color: white;
+}
+/* form end*/
+
+/* intro-end */
+/* topicbar start */
+.topic_bar{
+    width: 60%;
+    overflow: hidden;
+    margin: 100px auto 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    display: grid;
+    justify-content: center;
+    /* margin-bottom: -12px; */
+    margin-top: 20px;
+    color: white;
+}
+.icon i{
+   color: white;
+}
+.icon,h6{
+    color: white;
+}
+.explore_button {
+    padding: 12px;
+    height: 50px;
+    margin: 25px -70px 5px 1px;
+}
+
+.topic{
+    background-color: #FF8E51;
+    height: 100px;
+    border-radius: 75px;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+}
+.t2{
+    background-color: #6A4EE9;
+}
+.t3{
+    background-color: black;
+   }
+.t4{
+    background-color: #227DFF;
+   }
+.t5{
+    background-color: #5751FF;
+   }
+/* topicbar end */
+/* aside start */
+.item{
+    padding: 10px;
+}
+/* aside end */
+
+/* post_list start */
+h3{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+.post_list{
+    overflow: hidden;
+    
+}
+/* side bar start */
+
+.side_bar{
+    float: left;
+    width: 30%;
+}
+.side_bar h3{
+    font-family: poppins-Black;
+    font-weight: 900;
+}
+/* side bar end */
+/* post_container start*/
+.post_container{
+    width: 67%;
+    float: right;
+    overflow: hidden;
+    padding: 2%;
+}
+
+.meta_data{
+    float: left;
+    width: 16%;
+} 
+.meta_margin_top{
+    margin-top: 7px;
+}
+.meta_data i{
+    padding: 3px;
+    font-size: 16px;
+}
+.star_icon i{
+    color: #FFD568;
+    margin-left: 7px;
+}
+.anchor_text{
+    color: white;
+    text-decoration: none;
+}
+.info{
+    float: right;
+    width: 75%;
+}
+/* meta data topic highlight start */
+.topic_heighlight{
+    margin-left: -25px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 0 12px 12px 0;
+    background-color: #6A4EE9;
+}
+/* meta data topic highlight start */
+
+/* post bottom strat */
+.post_bottom{
+    margin-top: 45px;
+    overflow: hidden;
+}
+.post_bottom a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.post_bottom i{
+    font-size: 8px;
+    padding: 5px;
+}
+.before{
+    float: left;
+}
+.author {
+    display: inline;
+    width: 22%;
+    float: right;
+}                            
+ 
+
+.info .author img{
+   width: 25px;
+   height: 25px;
+   margin-top: -5px;
+   border-radius: 12px ;
+}
+.info h3:hover{
+   border-bottom: 1px solid black;
+}
+/* post bottom end */
+/* post_container end*/
+
+/* post_list end */
